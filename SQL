@@ -1,0 +1,30 @@
+# Basic-SQL-commands
+CREATE TABLE DEPTC ( 
+    DEPTNO int, 
+    dname varchar(20), 
+    loc varchar(30) );
+    
+     CREATE TABLE EMP ( 
+        empno int, 
+        ename varchar(50), 
+        job char, 
+        birthdate date, 
+        sol number, 
+        comm number, 
+        dept number 
+    );
+    
+  // to select all the contents from the table
+    SELECT * FROM TAB
+    
+     DESC DEPTC 
+  // to alter the table
+    ALTER TABLE DEPTC 
+    MODIFY loc  varchar(35);
+    
+        ALTER TABLE DEPTC  
+       DROP UNUSED COLUMNS
+       
+       
+      // to delete the table
+      DROP TABLE DEPTC
